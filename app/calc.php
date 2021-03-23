@@ -61,8 +61,8 @@ $smarty = new Smarty();
 $smarty->assign('app_url',_APP_URL);
 $smarty->assign('root_path',_ROOT_PATH);
 $smarty->assign('page_title','Kalkulator');
-$smarty->assign('page_description','Profesjonalne szablonowanie oparte na bibliotece Smarty');
-$smarty->assign('page_header','Szablony Smarty');
+$smarty->assign('page_description','Kalkulator umożliwiający dobranie odpowiedniego rezystora do diody LED');
+$smarty->assign('page_header','Kalkulator rezystora diody LED');
 
 $smarty->assign('form',$form);
 $smarty->assign('resistor',$resistor);
