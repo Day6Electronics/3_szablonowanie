@@ -65,7 +65,7 @@ $smarty->assign('page_description','Profesjonalne szablonowanie oparte na biblio
 $smarty->assign('page_header','Szablony Smarty');
 
 $smarty->assign('form',$form);
-$smarty->assign('result',$result);
+$smarty->assign('resistor',$resistor);
 $smarty->assign('msg',$msg);
 $smarty->assign('info',$info);
 
