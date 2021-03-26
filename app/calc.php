@@ -5,7 +5,7 @@ require_once _ROOT_PATH.'/lib/smarty/Smarty.class.php';
 function getParams(&$form) {
     $form['v1'] = isset($_REQUEST['v1']) ? $_REQUEST['v1'] : null;
     $form['v2'] = isset($_REQUEST['v2']) ? $_REQUEST['v2'] : null;
-    $form[amp] = isset($_REQUEST['amp']) ? $_REQUEST['amp'] : null;
+    $form['amp'] = isset($_REQUEST['amp']) ? $_REQUEST['amp'] : null;
 }
 
 function validate(&$form, &$msg, &$info) {
