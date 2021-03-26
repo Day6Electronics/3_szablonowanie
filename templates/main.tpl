@@ -6,23 +6,24 @@
 -->
 <html>
 	<head>
-		<title>Kalkulator rezystora diody LED</title>
+		<title>{$page_title|default:"Tytuł domyślny"}</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="{$app_url}/css/main.css" />
+                <meta name="description" content="{$page_description|default:"Opis domyślny"}">
 	</head>
 	<body>
 
 		<!-- Header -->
 			<header id="header" class="alt">
-				<div class="logo"><a href="index.html">Kalkulator rezystora diody LED</a></div>
+				<div class="logo"><a href="calc.php">Kalkulator rezystora diody LED</a></div>
 				<a href="#menu" class="toggle"><span>Menu</span></a>
 			</header>
 
 		<!-- Nav -->
 			<nav id="menu">
 				<ul class="links">
-					<li><a href="index.html">Strona główna</a></li>
+					<li><a href="index.php">Strona główna</a></li>
 				</ul>
 			</nav>
 
@@ -32,59 +33,47 @@
 			its extension (eg. images/banner). Your video must be available in both .mp4 and .webm
 			formats to work correctly.
 		-->
-			<section id="banner" style="background-image: url('images/zdj2.jpg')">
+			<section id="banner" style="background-image: url{$image_path})">
                             
 				<div class="inner">
                                     
 					<h1>Kalkulator</h1>
-                                        <p style="color:#FFF">Kalkulator pomagający dobrać odpowiedni rezystor do diody LED.<br />
-                                            Zaprojektowany przez: Dawid Gruszecki</p>
-					<a href="#footer" class="button special scrolly">Do kalkulatora</a>
+                                        <p style="color:#FFF">{$page_description|default:"Opis domyślny"}<br />
+                                            {$author|default:"Autor domyślny"}</p>
+					<a href="#app_content" class="button special scrolly">Do kalkulatora</a>
 				</div>
                             
 			</section>
-                
-		<!-- Footer -->
-			<footer id="footer" class="wrapper">
+                                        
+<div class="content-wrapper">
+    <div id="app_content" class="content">
+
+{block name=content} Domyślna treść zawartości .... {/block}
+
+    </div>
+<div class="footer l-box is-center">
+		<p>
+{block name=footer} Domyślna treść stopki .... {/block}
+		</p>
+                <footer id="footer" class="wrapper">
 				<div class="inner">
-					<section>
-						<div class="box">
-							<div class="content">
-								<h2 class="align-center">Oblicz rezystor</h2>
-								<hr />
-								<form action="<?php print(_APP_ROOT); ?>/app/calc.php" method="post">
-									<div class="field">
-										<label for="v1">Napięcie zasilania (V):</label>
-										<input name="v1" id="v1" type="text" placeholder="Napięcie zasilania (V)">
-									</div>
-									<div class="field">
-										<label for="v2">Napięcie przewodzenia (V):</label>
-										<input name="v2" id="v2" type="text" placeholder="Napięcie przewodzenia (V)">
-									</div>
-									<div class="field">
-										<label for="amp">Prąd przewodzenia (mA):</label>
-										<input name="amp" id="amp" type="text" placeholder="Prąd przewodzenia (mA)">
-									</div>
-									<ul class="actions align-center">
-										<li><input value="Oblicz" class="button special" type="submit"></li>
-									</ul>
-								</form>
-							</div>
-						</div>
-					</section>
 					<div class="copyright">
 						&copy; Untitled Design: <a href="https://templated.co/">TEMPLATED</a>. Images <a href="https://unsplash.com/">Unsplash</a>. Video <a href="http://coverr.co/">Coverr</a>.
 					</div>
 				</div>
 			</footer>
+    </div>
+</div>               
+		<!-- Footer -->
+			
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+			<script src="{$app_url}/js/jquery.min.js"></script>
+			<script src="{$app_url}/js/jquery.scrolly.min.js"></script>
+			<script src="{$app_url}/js/jquery.scrollex.min.js"></script>
+			<script src="{$app_url}/js/skel.min.js"></script>
+			<script src="{$app_url}/js/util.js"></script>
+			<script src="{$app_url}/js/main.js"></script>
 
 	</body>
 </html>
