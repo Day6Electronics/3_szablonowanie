@@ -4,33 +4,34 @@
 
 {block name=content}
     
-<section>
     <div class="box">
 	<div class="content">
             <h2 class="align-center">Oblicz rezystor</h2>
             <hr />
-		<form action="<?php print(_APP_ROOT); ?>/app/calc.php" method="post">
+		<form class="pure-form pure-form-stacked" action="{$app_url}/app/calc.php" method="post">
+                    <fieldset>
 		<div class="field">
                     <label for="v1">Napięcie zasilania (V):</label>
-                    <input name="v1" id="v1" type="text" placeholder="Napięcie zasilania (V)" value="{$form['v1']}>
+                    <input name="v1" id="v1" type="text" placeholder="Napięcie zasilania (V)" value="{$form['v1']}">
 		</div>
 		<div class="field">
                     <label for="v2">Napięcie przewodzenia (V):</label>
-                    <input name="v2" id="v2" type="text" placeholder="Napięcie przewodzenia (V)" value="{$form['v2']}>
+                    <input name="v2" id="v2" type="text" placeholder="Napięcie przewodzenia (V)" value="{$form['v2']}">
 		</div>
 		<div class="field">
                     <label for="amp">Prąd przewodzenia (mA):</label>
-                    <input name="amp" id="amp" type="text" placeholder="Prąd przewodzenia (mA)" value="{$form['amp']}>
+                    <input name="amp" id="amp" type="text" placeholder="Prąd przewodzenia (mA)" value="{$form['amp']}">
 		</div>
 		<ul class="actions align-center">
-                    <li><input value="Oblicz" class="button special" type="submit"></li>
+                    <li><input value="Oblicz wartość rezystora" class="button special" type="submit"></li>
 		</ul>
+                    </fieldset>
 		</form>
 	</div>
     </div>
-</section>
-    
-{* wyświeltenie listy błędów, jeśli istnieją *}
+
+<div style="width:90%; margin: 2em auto;">
+                    
 {if isset($msg)}
 	{if count($msg) > 0} 
 		<h4>Wystąpiły błędy: </h4>
@@ -58,10 +59,10 @@
 {/if}
 
 {if isset($resistor)}
-	<h4>Wynik</h4>
+	<h4>Wynik:</h4>
 	<p class="res">
-	{$resistor}
+	{$resistor} Ohm
 	</p>
 {/if}
-                    
+</div>
 {/block}

@@ -64,7 +64,6 @@ $smarty->assign('page_title','Kalkulator');
 $smarty->assign('page_description','Kalkulator umożliwiający dobranie odpowiedniego rezystora do diody LED.');
 $smarty->assign('page_header','Kalkulator rezystora diody LED');
 $smarty->assign('author','Zaprojektowany przez: Dawid Gruszecki');
-$smarty->assign('image_path','images/zdj2.jpg');
 
 $smarty->assign('form',$form);
 $smarty->assign('resistor',$resistor);
