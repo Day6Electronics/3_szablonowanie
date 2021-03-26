@@ -1,6 +1,6 @@
 <?php
 require_once dirname(__FILE__) . '/../config.php';
-require_once dirname(__FILE__) . '/lib/smarty/Smarty.class.php';
+require_once _ROOT_PATH.'/lib/smarty/Smarty.class.php';
 
 function getParams(&$form) {
     $form['v1'] = isset($_REQUEST['v1']) ? $_REQUEST['v1'] : null;
