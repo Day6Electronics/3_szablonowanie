@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-03-26 20:08:30
+/* Smarty version 3.1.39, created on 2021-03-27 13:01:24
   from 'C:\Serwery i inne szmery\xamp\htdocs\projekt3_szablonowanie\templates\main.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_605e312e1b8d96_50478395',
+  'unifunc' => 'content_605f1e94261d64_75827258',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '86a71da147e19b9eb9037a2160df4004fdd8e2bf' => 
     array (
       0 => 'C:\\Serwery i inne szmery\\xamp\\htdocs\\projekt3_szablonowanie\\templates\\main.tpl',
-      1 => 1616785548,
+      1 => 1616845703,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_605e312e1b8d96_50478395 (Smarty_Internal_Template $_smarty_tpl) {
+function content_605f1e94261d64_75827258 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
@@ -80,30 +80,24 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, false);
     <div id="app_content" class="content">
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1627573597605e312e1b7b17_53399056', 'content');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_849467118605f1e94260e30_85592755', 'content');
 ?>
 
 
     </div>
-<div class="footer l-box is-center">
-		<p>
-<?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_77138585605e312e1b80f0_54394453', 'footer');
-?>
 
-		</p>
                 <footer id="footer" class="wrapper">
 				<div class="inner">
 					<div class="copyright">
 						&copy; Untitled Design: <a href="https://templated.co/">TEMPLATED</a>. Images <a href="https://unsplash.com/">Unsplash</a>. Video <a href="http://coverr.co/">Coverr</a>.
+                                                <p><?php echo $_smarty_tpl->tpl_vars['author']->value;?>
+</p>
 					</div>
 				</div>
 			</footer>
     </div>
 </div>               
-		<!-- Footer -->
 			
-
 		<!-- Scripts -->
 			<?php echo '<script'; ?>
  src="<?php echo $_smarty_tpl->tpl_vars['app_url']->value;?>
@@ -133,12 +127,12 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_77138585605e312e1b
 	</body>
 </html><?php }
 /* {block 'content'} */
-class Block_1627573597605e312e1b7b17_53399056 extends Smarty_Internal_Block
+class Block_849467118605f1e94260e30_85592755 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'content' => 
   array (
-    0 => 'Block_1627573597605e312e1b7b17_53399056',
+    0 => 'Block_849467118605f1e94260e30_85592755',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -147,19 +141,4 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 }
 /* {/block 'content'} */
-/* {block 'footer'} */
-class Block_77138585605e312e1b80f0_54394453 extends Smarty_Internal_Block
-{
-public $subBlocks = array (
-  'footer' => 
-  array (
-    0 => 'Block_77138585605e312e1b80f0_54394453',
-  ),
-);
-public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
-?>
- Domyślna treść stopki .... <?php
-}
-}
-/* {/block 'footer'} */
 }

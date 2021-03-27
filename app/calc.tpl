@@ -1,24 +1,23 @@
 {extends file="../templates/main.tpl"}
 
-{block name=footer}Przykładowa tresć stopki wpisana do szablonu głównego z szablonu kalkulatora{/block}
-
 {block name=content}
     
     <div class="box">
 	<div class="content">
             <h2 class="align-center">Oblicz rezystor</h2>
             <hr />
+            <div class="l-box-lrg pure-u-1 pure-u-med-2-5">
 		<form class="pure-form pure-form-stacked" action="{$app_url}/app/calc.php" method="post">
                     <fieldset>
-		<div class="field">
+		<div class="field half first">
                     <label for="v1">Napięcie zasilania (V):</label>
                     <input name="v1" id="v1" type="text" placeholder="Napięcie zasilania (V)" value="{$form['v1']}">
 		</div>
-		<div class="field">
+		<div class="field half">
                     <label for="v2">Napięcie przewodzenia (V):</label>
                     <input name="v2" id="v2" type="text" placeholder="Napięcie przewodzenia (V)" value="{$form['v2']}">
 		</div>
-		<div class="field">
+		<div class="field half first">
                     <label for="amp">Prąd przewodzenia (mA):</label>
                     <input name="amp" id="amp" type="text" placeholder="Prąd przewodzenia (mA)" value="{$form['amp']}">
 		</div>
@@ -28,6 +27,7 @@
                     </fieldset>
 		</form>
 	</div>
+    </div>
     </div>
 
 <div style="width:90%; margin: 2em auto;">

@@ -51,22 +51,18 @@
 {block name=content} Domyślna treść zawartości .... {/block}
 
     </div>
-<div class="footer l-box is-center">
-		<p>
-{block name=footer} Domyślna treść stopki .... {/block}
-		</p>
+
                 <footer id="footer" class="wrapper">
 				<div class="inner">
 					<div class="copyright">
 						&copy; Untitled Design: <a href="https://templated.co/">TEMPLATED</a>. Images <a href="https://unsplash.com/">Unsplash</a>. Video <a href="http://coverr.co/">Coverr</a>.
+                                                <p>{$author}</p>
 					</div>
 				</div>
 			</footer>
     </div>
 </div>               
-		<!-- Footer -->
 			
-
 		<!-- Scripts -->
 			<script src="{$app_url}/js/jquery.min.js"></script>
 			<script src="{$app_url}/js/jquery.scrolly.min.js"></script>
