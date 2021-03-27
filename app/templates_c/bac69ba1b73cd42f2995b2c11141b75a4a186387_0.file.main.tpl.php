@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-03-27 12:49:28
+/* Smarty version 3.1.39, created on 2021-03-27 13:22:30
   from 'C:\Serwery i inne szmery\xamp\htdocs\projekt3_szablonowanie\templates\main.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_605f1bc8db55f8_39641286',
+  'unifunc' => 'content_605f2386200bf9_64610545',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'bac69ba1b73cd42f2995b2c11141b75a4a186387' => 
     array (
       0 => 'C:\\Serwery i inne szmery\\xamp\\htdocs\\projekt3_szablonowanie\\templates\\main.tpl',
-      1 => 1616845703,
+      1 => 1616847732,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_605f1bc8db55f8_39641286 (Smarty_Internal_Template $_smarty_tpl) {
+function content_605f2386200bf9_64610545 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
@@ -45,14 +45,14 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 
 		<!-- Header -->
 			<header id="header" class="alt">
-				<div class="logo"><a href="index.php">Kalkulator rezystora diody LED</a></div>
+				<div class="logo"><a href="">Kalkulator rezystora diody LED</a></div>
 				<a href="#menu" class="toggle"><span>Menu</span></a>
 			</header>
 
 		<!-- Nav -->
 			<nav id="menu">
 				<ul class="links">
-					<li><a href="index.php">Strona główna</a></li>
+					<li><a href="#menu">Strona główna</a></li>
 				</ul>
 			</nav>
 
@@ -80,7 +80,7 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, false);
     <div id="app_content" class="content">
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_525610843605f1bc8db4670_16868193', 'content');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_248867412605f23861ffa50_62295979', 'content');
 ?>
 
 
@@ -127,12 +127,12 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_525610843605f1bc8d
 	</body>
 </html><?php }
 /* {block 'content'} */
-class Block_525610843605f1bc8db4670_16868193 extends Smarty_Internal_Block
+class Block_248867412605f23861ffa50_62295979 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'content' => 
   array (
-    0 => 'Block_525610843605f1bc8db4670_16868193',
+    0 => 'Block_248867412605f23861ffa50_62295979',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
