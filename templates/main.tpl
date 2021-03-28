@@ -16,7 +16,7 @@
 
 		<!-- Header -->
 			<header id="header" class="alt">
-				<div class="logo"><a href="{$app_url}/index.php">Kalkulator rezystora diody LED</a></div>
+				<div class="logo"><a href="">Kalkulator rezystora diody LED</a></div>
 				<a href="#menu" class="toggle"><span>Menu</span></a>
 			</header>
 
@@ -33,7 +33,7 @@
 			its extension (eg. images/banner). Your video must be available in both .mp4 and .webm
 			formats to work correctly.
 		-->
-			<section id="banner" style="background-image: url('images/zdj2.jpg')">
+			<section id="banner" style="background-image: url('../images/zdj2.jpg')">
                             
 				<div class="inner">
                                     

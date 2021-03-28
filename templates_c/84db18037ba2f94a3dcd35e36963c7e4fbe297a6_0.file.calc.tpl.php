@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-03-27 13:01:24
+/* Smarty version 3.1.39, created on 2021-03-28 12:31:54
   from 'C:\Serwery i inne szmery\xamp\htdocs\projekt3_szablonowanie\app\calc.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_605f1e941c8d44_78087306',
+  'unifunc' => 'content_60605b1aa7f457_92876313',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '84db18037ba2f94a3dcd35e36963c7e4fbe297a6' => 
     array (
       0 => 'C:\\Serwery i inne szmery\\xamp\\htdocs\\projekt3_szablonowanie\\app\\calc.tpl',
-      1 => 1616846410,
+      1 => 1616927391,
       2 => 'file',
     ),
   ),
@@ -20,23 +20,23 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_605f1e941c8d44_78087306 (Smarty_Internal_Template $_smarty_tpl) {
+function content_60605b1aa7f457_92876313 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1963266146605f1e941be346_24735487', 'content');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_198295429660605b1aa73131_93968278', 'content');
 $_smarty_tpl->inheritance->endChild($_smarty_tpl, "../templates/main.tpl");
 }
 /* {block 'content'} */
-class Block_1963266146605f1e941be346_24735487 extends Smarty_Internal_Block
+class Block_198295429660605b1aa73131_93968278 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'content' => 
   array (
-    0 => 'Block_1963266146605f1e941be346_24735487',
+    0 => 'Block_198295429660605b1aa73131_93968278',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
