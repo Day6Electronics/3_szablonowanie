@@ -16,7 +16,7 @@
 
 		<!-- Header -->
 			<header id="header" class="alt">
-				<div class="logo"><a href="">Kalkulator rezystora diody LED</a></div>
+				<div class="logo"><a href="{$app_url}/index.php">Kalkulator rezystora diody LED</a></div>
 				<a href="#menu" class="toggle"><span>Menu</span></a>
 			</header>
 
