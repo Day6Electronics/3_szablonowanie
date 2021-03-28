@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-03-28 12:33:26
+/* Smarty version 3.1.39, created on 2021-03-28 12:39:57
   from 'C:\Serwery i inne szmery\xamp\htdocs\projekt3_szablonowanie\templates\main.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_60605b769e5291_78162577',
+  'unifunc' => 'content_60605cfd57c7b9_37320052',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '86a71da147e19b9eb9037a2160df4004fdd8e2bf' => 
     array (
       0 => 'C:\\Serwery i inne szmery\\xamp\\htdocs\\projekt3_szablonowanie\\templates\\main.tpl',
-      1 => 1616927604,
+      1 => 1616927990,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_60605b769e5291_78162577 (Smarty_Internal_Template $_smarty_tpl) {
+function content_60605cfd57c7b9_37320052 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
@@ -45,8 +45,7 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 
 		<!-- Header -->
 			<header id="header" class="alt">
-				<div class="logo"><a href="<?php echo $_smarty_tpl->tpl_vars['app_url']->value;?>
-/app/calc.tpl">Kalkulator rezystora diody LED</a></div>
+				<div class="logo"><a href="">Kalkulator rezystora diody LED</a></div>
 				<a href="#menu" class="toggle"><span>Menu</span></a>
 			</header>
 
@@ -63,7 +62,8 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 			its extension (eg. images/banner). Your video must be available in both .mp4 and .webm
 			formats to work correctly.
 		-->
-			<section id="banner" style="background-image: url('../images/zdj2.jpg')">
+			<section id="banner" style="background-image: url('<?php echo $_smarty_tpl->tpl_vars['app_url']->value;?>
+/images/zdj2.jpg')">
                             
 				<div class="inner">
                                     
@@ -81,7 +81,7 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, false);
     <div id="app_content" class="content">
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_179587828460605b769e4176_38606964', 'content');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_199000978360605cfd57b6e1_15746070', 'content');
 ?>
 
 
@@ -128,12 +128,12 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_179587828460605b76
 	</body>
 </html><?php }
 /* {block 'content'} */
-class Block_179587828460605b769e4176_38606964 extends Smarty_Internal_Block
+class Block_199000978360605cfd57b6e1_15746070 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'content' => 
   array (
-    0 => 'Block_179587828460605b769e4176_38606964',
+    0 => 'Block_199000978360605cfd57b6e1_15746070',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

@@ -33,7 +33,7 @@
 			its extension (eg. images/banner). Your video must be available in both .mp4 and .webm
 			formats to work correctly.
 		-->
-			<section id="banner" style="background-image: url('../images/zdj2.jpg')">
+			<section id="banner" style="background-image: url('{$app_url}/images/zdj2.jpg')">
                             
 				<div class="inner">
                                     
