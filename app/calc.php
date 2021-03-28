@@ -10,7 +10,7 @@ function getParams(&$form) {
 
 function validate(&$form, &$msg, &$info) {
     if (!(isset($form['v1']) && isset($form['v2']) && isset($form['amp']))) return false;
-
+    
     $info [] = "Przekazano parametry.";
     
     if ($form['v1'] == "") $msg [] = 'Nie podano napięcia zasilania!';

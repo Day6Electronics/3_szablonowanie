@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-03-28 12:40:03
+/* Smarty version 3.1.39, created on 2021-03-28 13:14:49
   from 'C:\Serwery i inne szmery\xamp\htdocs\projekt3_szablonowanie\templates\main.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_60605d0369fb72_02745418',
+  'unifunc' => 'content_606065290ac551_21737969',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'bac69ba1b73cd42f2995b2c11141b75a4a186387' => 
     array (
       0 => 'C:\\Serwery i inne szmery\\xamp\\htdocs\\projekt3_szablonowanie\\templates\\main.tpl',
-      1 => 1616927990,
+      1 => 1616930011,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_60605d0369fb72_02745418 (Smarty_Internal_Template $_smarty_tpl) {
+function content_606065290ac551_21737969 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
@@ -81,7 +81,7 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, false);
     <div id="app_content" class="content">
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_188469608360605d0369ea13_76240182', 'content');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_525728192606065290ab461_32354040', 'content');
 ?>
 
 
@@ -128,12 +128,12 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_188469608360605d03
 	</body>
 </html><?php }
 /* {block 'content'} */
-class Block_188469608360605d0369ea13_76240182 extends Smarty_Internal_Block
+class Block_525728192606065290ab461_32354040 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'content' => 
   array (
-    0 => 'Block_188469608360605d0369ea13_76240182',
+    0 => 'Block_525728192606065290ab461_32354040',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
